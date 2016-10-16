@@ -84,14 +84,6 @@ advisories:
     bugs:
       - url: 1254688
         desc: 1254688
-  CVE-2016-5261:
-    title: Integer overflow and memory corruption in WebSocketChannel
-    impact: high
-    reporter: Samuel Groß
-    description: An integer overflow error in WebSockets during data buffering on incoming packets resulting in attacker controlled data being written at a known offset in the allocated buffer
-    bugs:
-      - url: 1287266
-        desc: 1287266
   CVE-2016-5257:
     title: Memory safety bugs fixed in Thunderbird 45.4
     impact: critical
