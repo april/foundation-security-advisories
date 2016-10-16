@@ -4,20 +4,11 @@ fixed_in:
 - Thunderbird 45.4
 title: Security vulnerabilities fixed in Thunderbird 45.4
 advisories:
-  CVE-2016-xxxx:
-    title: bug title
-    impact: rating
-    reporter: reporter name
-    description: Another short description
-    bugs:
-      - url: https://some.web.com/warning.html
-        desc: A different site that is totally not bugzilla
   CVE-2016-5270:
     title: Heap-buffer-overflow in nsCaseTransformTextRunFactory::TransformString
     impact: high
     reporter: Atte Kettunen
-    description: |
-      An out-of-bounds write of a boolean value during text conversion with some unicode characters.
+    description: An out-of-bounds write of a boolean value during text conversion with some unicode characters.
     bugs:
       - url: 1291016
         desc: 1291016     
