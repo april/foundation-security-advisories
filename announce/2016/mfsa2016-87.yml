@@ -3,6 +3,7 @@ announced: September 20, 2016
 fixed_in:
 - Thunderbird 45.4
 title: Security vulnerabilities fixed in Thunderbird 45.4
+description: <span class="note">In general, these flaw cannot be exploited through email in the Thunderbird product because scripting is disabled, but are potentially risks in browser or browser-like contexts.</span>
 advisories:
   CVE-2016-5270:
     title: Heap-buffer-overflow in nsCaseTransformTextRunFactory::TransformString
